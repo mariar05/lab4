@@ -248,35 +248,67 @@ footer {
 }
 
 .skills-table {
-  border: 2px solid #3f2a63;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(28, 24, 46, 0.14);
 }
 
 .skills-table thead th {
-  background-color: #3f2a63;
+  background: linear-gradient(180deg, #5f2bb3 0%, #5425a3 100%);
   color: #fff;
-  text-align: center;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.98rem;
+  padding: 0.75rem 1rem;
 }
 
 .skills-table .skill-category {
-  background-color: #c6b8e8;
-  color: #1f1434;
+  background: linear-gradient(145deg, #7c45e5 0%, #632bd3 100%);
+  color: #f7f4ff;
   font-weight: 700;
+  font-size: 1.15rem;
+  vertical-align: middle;
+  min-width: 190px;
 }
 
 .skills-table tbody td {
-  background-color: #ffffff;
+  background-color: #ececf3;
+  color: #171720;
+  font-size: 1.05rem;
 }
 
-.skills-table tbody tr:nth-child(even) td {
-  background-color: #efe9ff;
+.skills-table tbody tr:nth-child(odd) td {
+  background-color: #f5f4fa;
 }
 
-.skills-table td.skill-good {
-  background-color: #d9f7df;
+.skills-table tbody tr td.skill-good {
+  background-color: #c9ecd6;
+  color: #0f5d3e;
+  font-weight: 700;
 }
 
-.skills-table td.skill-improve {
-  background-color: #f9d8d8;
+.skills-table tbody tr td.skill-improve {
+  background-color: #ecd2d5;
+  color: #7d1f28;
+  font-weight: 700;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #d7d4e3;
+  padding: 0.7rem 1rem;
+  line-height: 1.2;
+}
+
+.skills-table thead th {
+  border-color: #5327a2;
+}
+
+#skills .lab4-note {
+  display: none;
 }
 
 .project-table select {
