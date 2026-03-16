@@ -296,6 +296,12 @@ footer {
   font-weight: 700;
 }
 
+.skills-table tbody tr td.skill-plain {
+  background-color: #f5f4fa;
+  color: #171720;
+  font-weight: 400;
+}
+
 .skills-table th,
 .skills-table td {
   border: 1px solid #d7d4e3;
